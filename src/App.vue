@@ -46,23 +46,25 @@ html,body,#app{
     @include flex-direction(column);
     @include flex();
     @include rect(100%,auto);
+    @include overflow();
     .search{
-      @include background-color(#c8c8c8);
+      @include background-color(#ccc);
+      @include rect(80%,0.3rem);
+      border-radius: 0.15rem;
+      margin: 0.15rem;
     }
     .carousel{
-      @include background-color(rgb(194, 56, 199));
-    }
-    .content{
-      @include flexbox();
-      @include flex-direction(column);
-      @include flex();
       @include rect(100%,auto);
-      .data{
-        @include flexbox();
-        @include flex-direction(column);
-        @include flex();
-        @include rect(100%,auto);
-      }
+    }
+    // .icon{
+    //   @include flexbox();
+    //   @include rect(100%,3rem);
+    // }
+    .gif{
+      @include rect(100%,1rem);
+    }
+    .hehe{
+      @include rect(100%,3rem);
     }
   }
   .footer{
