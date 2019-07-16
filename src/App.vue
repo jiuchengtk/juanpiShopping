@@ -1,35 +1,7 @@
 <template>
   <div id="app">
-    <!-- <div class="container">
-      <div class="search">搜索框</div>
-      <div class="carousel">轮播图</div>
-      <div class="content">
-        <div class="icon">图标</div>
-        <div class="data">内容区</div>
-      </div>
-    </div> -->
     <router-view></router-view>
     <router-view name="footer"></router-view>
-    <!-- <footer class="footer">
-      <ul>
-        <router-link class="active" tag="li" to="/home">
-          <span class="iconfont icon-home"></span>
-          <p>首页</p>
-        </router-link>
-        <router-link tag="li" to="/kind">
-          <span class="iconfont icon-fenlei1"></span>
-          <p>分类</p>
-        </router-link>
-        <router-link tag="li" to="/caet">
-          <span class="iconfont icon-icon7"></span>
-          <p>购物车</p>
-        </router-link>
-        <router-link tag="li" to="/user">
-          <span class="iconfont icon-gouwuche"></span>
-          <p>我的卷皮</p>
-        </router-link>
-      </ul>
-    </footer> -->
   </div>
 </template>
 
